@@ -1,0 +1,44 @@
+/* TODO: ENCABEZADO DE LA PÁGINA WEB  */
+
+.encabezado {
+  width: 100%;
+  height: 16em;
+  background-image: url("../img/portada4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#principalFondo {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  top: 100px;
+  background-color: rgba(0, 0, 0, 0.397);
+  box-shadow: -10px 5px 10px #000, 5px -3px 5px #000;
+}
+
+#principalTitulo {
+  color: $letraprincipal;
+  text-shadow: 10px 10px 30px $letraprincipal;
+  margin: 25px auto 20px 50px;
+}
+
+.imagenTitulo {
+  position: absolute;
+  top: 25px;
+  left: 3px;
+}
+
+/* TODO: PERSONALIZACIÓN DEL SLIDE */
+.carousel-item {
+  height: 20em;
+  position: relative;
+  bottom: 30px;
+}
+
+.carousel-caption {
+  color: #fff;
+  font-weight: 900;
+  text-shadow: 2px 5px 5px #000, 2px -5px 5px #000;
+}

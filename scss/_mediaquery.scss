@@ -1,0 +1,43 @@
+/* TODO: small devices (celular) */
+// adaptación para celular, no se muestra el slide para no sobrecargar de contenido el encabezado
+
+@media (max-width: 768px) {
+  #slideTexto {
+    display: none;
+  }
+}
+
+/* TODO: Medium devices (tablets, 768px and up) */
+// adaptación para tablet de el logo del título, el tamaño de la letra del slide y el alto del encabezado y la contenedor del título principal
+
+@media (min-width: 768px) {
+  .encabezado {
+    width: 100%;
+    height: 20em;
+  }
+
+  #principalFondo {
+    width: 100%;
+    height: 100px;
+  }
+
+  .imagenTitulo {
+    width: 44px;
+    height: 44px;
+  }
+  .carousel-caption {
+    font-size: 1.1em;
+  }
+}
+/* TODO: X-Large devices (large desktops, 1200px and up) */
+// adaptación para pantalla de escritorio de el logo del título y el tamaño de la letra del slide
+
+@media (min-width: 1200px) {
+  .imagenTitulo {
+    width: 48px;
+    height: 48px;
+  }
+  .carousel-caption {
+    font-size: 1.4em;
+  }
+}

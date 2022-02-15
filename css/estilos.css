@@ -1,0 +1,41 @@
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* TODO: contenedor divisorio */
+
+.franja {
+  padding: 20px;
+  background-color: #264653;
+  color: #fff;
+  margin-bottom: 80px;
+}
+
+.blanco {
+  color: #000;
+}
+
+/* TODO: TARJETAS */
+.fondoCard {
+  background-color: #264653;
+  border: 1px solid #264653;
+  color: #fff;
+  box-shadow: 7px 12px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* TODO: botones continuar leyendo */
+.leyendo {
+  width: 30%;
+  font-size: 18px;
+  background-color: #e76f51;
+  color: #fff;
+  padding: 12px 20px;
+  margin: 10px auto;
+  border: 1px solid #e76f51;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.leyendo:hover {
+  background-color: #9e1d1d;
+}

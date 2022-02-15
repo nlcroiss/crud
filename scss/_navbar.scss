@@ -1,0 +1,73 @@
+/* TODO: barra de navegación principal*/
+
+@mixin subrayado {
+  text-decoration: none;
+  background-image: linear-gradient(#fff, #fff);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+
+.navbar {
+  width: 100%;
+  background-color: $fondoBarra;
+  color: $letraprincipal;
+  transition: all 2s;
+
+  ul {
+    li {
+      display: inline-block;
+      list-style: none;
+      padding: 5px 20px;
+      transition: all 2s;
+
+      a {
+        display: block;
+        padding: 5px;
+        color: $letraprincipal;
+        @include subrayado;
+      }
+    }
+  }
+}
+
+.navbar ul li a:hover,
+.navbar ul li a:focus {
+  background-size: 100% 2px;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%28255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+// barra de navegación en el footer//
+
+.barra {
+  width: 100%;
+  background-color: $fondoFooter;
+  color: $letraprincipal;
+  transition: all 2s;
+
+  ul {
+    li {
+      display: inline-block;
+      list-style: none;
+      padding: 5px 20px;
+      transition: all 2s;
+
+      a {
+        display: block;
+        padding: 5px;
+        color: $letraprincipal;
+        @include subrayado;
+      }
+    }
+  }
+}
+
+.barra ul li a:hover,
+.barra ul li a:focus {
+  background-size: 100% 2px;
+  color: $letraprincipal;
+}

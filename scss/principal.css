@@ -1,0 +1,162 @@
+/* TODO: --- Encabezado --- */
+.encabezado {
+  width: 100%;
+  height: 350px;
+  background-image: url("../img/portada1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#principalFondo {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  background-color: rgba(0, 0, 0, 0.397);
+}
+
+#principalTitulo {
+  color: #fff;
+  text-shadow: 10px 10px 30px #fff;
+  margin: 25px auto 20px 40px;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #264653;
+  color: #fff;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.navbar ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 5px 20px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.navbar ul li a {
+  display: block;
+  padding: 5px;
+  color: #fff;
+  text-decoration: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+  background-image: linear-gradient(#fff, #fff);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  -webkit-transition: background-size 0.3s;
+  transition: background-size 0.3s;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a:focus {
+  background-size: 100% 2px;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%28255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.barra {
+  width: 100%;
+  background-color: #e76f51;
+  color: #fff;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.barra ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 5px 20px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.barra ul li a {
+  display: block;
+  padding: 5px;
+  color: #fff;
+  text-decoration: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+  background-image: linear-gradient(#fff, #fff);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  -webkit-transition: background-size 0.3s;
+  transition: background-size 0.3s;
+}
+
+.barra ul li a:hover,
+.barra ul li a:focus {
+  background-size: 100% 2px;
+  color: #fff;
+}
+
+.guardar, .cancelar {
+  width: 100%;
+  font-size: 18px;
+  padding: 12px 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.formulario {
+  margin: 50px auto;
+  padding: 15px;
+  background-color: #264653;
+  border: 1px solid #264653;
+  color: #fff;
+}
+
+.guardar {
+  background-color: #e76f51;
+  color: #fff;
+  border: 1px solid #e76f51;
+}
+
+.guardar:hover {
+  background-color: #9e1d1d;
+  color: #fff;
+  border: 1px solid #9e1d1d;
+  font-size: 19px;
+}
+
+.cancelar:hover {
+  font-size: 19px;
+}
+
+footer {
+  width: 100%;
+  /* height: 150px; */
+  background-color: #e76f51;
+  color: #fff;
+  text-align: center;
+}
+
+.iconos {
+  font-size: 2em;
+}
+
+.iconos a {
+  color: #fff;
+  padding: 0 5px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+  background-image: linear-gradient(#fff, #fff);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  -webkit-transition: background-size 0.3s;
+  transition: background-size 0.3s;
+}
+
+.iconos a:hover {
+  background-size: 100% 2px;
+}
+/*# sourceMappingURL=principal.css.map */

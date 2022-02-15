@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/* TODO: VARIABLES GLOBALES */
+/* TODO: ENCABEZADO DE LA PÁGINA WEB  */
+.encabezado {
+  width: 100%;
+  height: 16em;
+  background-image: url("../img/portada4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+#principalFondo {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  top: 100px;
+  background-color: rgba(0, 0, 0, 0.397);
+  box-shadow: -10px 5px 10px #000, 5px -3px 5px #000; }
+
+#principalTitulo {
+  color: #fff;
+  text-shadow: 10px 10px 30px #fff;
+  margin: 25px auto 20px 50px; }
+
+.imagenTitulo {
+  position: absolute;
+  top: 25px;
+  left: 3px; }
+
+/* TODO: PERSONALIZACIÓN DEL SLIDE */
+.carousel-item {
+  height: 20em;
+  position: relative;
+  bottom: 30px; }
+
+.carousel-caption {
+  color: #fff;
+  font-weight: 900;
+  text-shadow: 2px 5px 5px #000, 2px -5px 5px #000; }
+
+/* TODO: barra de navegación principal*/
+.navbar {
+  width: 100%;
+  background-color: #264653;
+  color: #fff;
+  transition: all 2s; }
+  .navbar ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px 20px;
+    transition: all 2s; }
+    .navbar ul li a {
+      display: block;
+      padding: 5px;
+      color: #fff;
+      text-decoration: none;
+      background-image: linear-gradient(#fff, #fff);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      transition: background-size 0.3s; }
+
+.navbar ul li a:hover,
+.navbar ul li a:focus {
+  background-size: 100% 2px; }
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%28255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+
+.barra {
+  width: 100%;
+  background-color: #e76f51;
+  color: #fff;
+  transition: all 2s; }
+  .barra ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px 20px;
+    transition: all 2s; }
+    .barra ul li a {
+      display: block;
+      padding: 5px;
+      color: #fff;
+      text-decoration: none;
+      background-image: linear-gradient(#fff, #fff);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      transition: background-size 0.3s; }
+
+.barra ul li a:hover,
+.barra ul li a:focus {
+  background-size: 100% 2px;
+  color: #fff; }
+
+/* TODO: FORMULARIO DE CONTACTO */
+.guardar, .cancelar {
+  width: 100%;
+  font-size: 18px;
+  padding: 12px 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  transition: all 1s; }
+
+.formulario {
+  margin: 50px auto;
+  padding: 15px;
+  background-color: #264653;
+  border: 1px solid #264653;
+  color: #fff; }
+
+.textoForm {
+  color: #000; }
+
+textarea {
+  height: 100px;
+  color: #000; }
+
+.guardar {
+  background-color: #e76f51;
+  color: #fff;
+  border: 1px solid #e76f51; }
+  .guardar:hover {
+    background-color: #9e1d1d;
+    color: #fff;
+    border: 1px solid #9e1d1d;
+    font-size: 19px; }
+
+.cancelar:hover {
+  font-size: 19px; }
+
+/* TODO: pie de página de la página */
+footer {
+  width: 100%;
+  /* height: 150px; */
+  background-color: #e76f51;
+  color: #fff;
+  text-align: center; }
+
+/*  TODO: ICONOS DE REDES SOCIALES */
+.iconos {
+  font-size: 2em; }
+  .iconos a {
+    color: #fff;
+    padding: 0 5px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+    background-image: linear-gradient(#fff, #fff);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s; }
+    .iconos a:hover {
+      background-size: 100% 2px; }
+
+/* TODO: small devices (celular) */
+@media (max-width: 768px) {
+  #slideTexto {
+    display: none; } }
+
+/* TODO: Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .encabezado {
+    width: 100%;
+    height: 20em; }
+  #principalFondo {
+    width: 100%;
+    height: 100px; }
+  .imagenTitulo {
+    width: 44px;
+    height: 44px; }
+  .carousel-caption {
+    font-size: 1.1em; } }
+
+/* TODO: X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .imagenTitulo {
+    width: 48px;
+    height: 48px; }
+  .carousel-caption {
+    font-size: 1.4em; } }

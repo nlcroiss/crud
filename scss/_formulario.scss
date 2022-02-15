@@ -1,0 +1,49 @@
+/* TODO: FORMULARIO DE CONTACTO */
+
+%boton {
+  width: 100%;
+  font-size: 18px;
+  padding: 12px 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  transition: all 1s;
+}
+
+.formulario {
+  margin: 50px auto;
+  padding: 15px;
+  background-color: $fondoBarra;
+  border: 1px solid $fondoBarra;
+  color: $letraprincipal;
+}
+
+.textoForm {
+  color: #000;
+}
+
+textarea {
+  height: 100px;
+  color: #000;
+}
+
+.guardar {
+  @extend %boton;
+  background-color: $fondoFooter;
+  color: $letraprincipal;
+  border: 1px solid $fondoFooter;
+
+  &:hover {
+    background-color: #9e1d1d;
+    color: $letraprincipal;
+    border: 1px solid #9e1d1d;
+    font-size: 19px;
+  }
+}
+
+.cancelar {
+  @extend %boton;
+
+  &:hover {
+    font-size: 19px;
+  }
+}
